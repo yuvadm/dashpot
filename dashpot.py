@@ -2,8 +2,9 @@
 
 from kademlia.node import Node
 
-print "Starting downashpot..."
+print "Starting dashpot..."
 
 node = Node()
+node.joinNetwork()
 
 print "Shutting down..."
